@@ -1,3 +1,3 @@
-# odin-recipes
+# These are definitely THE recipes of all time
 
-Recipes of the God himself.
+The absolute best of the best (maybe)
