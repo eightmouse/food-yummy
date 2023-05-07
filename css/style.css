@@ -1,15 +1,29 @@
 /* background properties of each page */
-#homepage, #castella {
+#homepage, #castella, #ramen, #tako-yaki{
     background-color: #393646;
     font-family: Helvetica, Arial, Verdana, sans-serif;
 }
 
+/*-------------------------------------------------------------------------*/
 
-/* index.html edits start here */
-.title-header {
-    color: white;
+/* shared properties */
+h2, h3 {
+    color: #8294C4;
 }
 
+h1{
+    text-align: center;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+/* end of shared properties */
+
+/*-------------------------------------------------------------------------*/
+
+/* index.html edits start here */
 /* unvisited link */
 a:link {
     color: lightseagreen;
@@ -24,15 +38,31 @@ a:visited {
     font-weight: 400;
 }
 
+.list {
+    font-size: 20px;
+}
 /* index.html edits finish here */
 
-
+/*-------------------------------------------------------------------------*/
 
 /* castellacake.html edits start here */
 .c-container {
     color: white;
 }
+/* castellacake.html edits ends here */
 
-h2, h3 {
-    color: #8294C4;
+
+
+/* ramen.html edits start here */
+.r-container {
+    color: white;
 }
+/* ramen.html edits ends here */
+
+/*-------------------------------------------------------------------------*/
+
+/* tako-yaki.html edits start here */
+.t-container {
+    color: white;
+}
+/* tako-yaki.html edits ends here */
