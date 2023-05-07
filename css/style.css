@@ -1,0 +1,38 @@
+/* background properties of each page */
+#homepage, #castella {
+    background-color: #393646;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+/* index.html edits start here */
+.title-header {
+    color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: lightseagreen;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* visited link */
+a:visited {
+    color: lightcoral;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* index.html edits finish here */
+
+
+
+/* castellacake.html edits start here */
+.c-container {
+    color: white;
+}
+
+h2, h3 {
+    color: #8294C4;
+}
