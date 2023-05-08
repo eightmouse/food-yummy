@@ -15,15 +15,23 @@ h1{
     text-align: center;
 }
 
+/* img properties for the other pages */
 .responsive {
     width: 100%;
     height: auto;
+    margin-top: 69px;
 }
 /* end of shared properties */
 
 /*-------------------------------------------------------------------------*/
 
 /* index.html edits start here */
+
+.responsive-cat {
+    width: 100%;
+    height: auto;
+}
+
 /* unvisited link */
 a:link {
     color: lightseagreen;
@@ -38,8 +46,37 @@ a:visited {
     font-weight: 400;
 }
 
-.list {
-    font-size: 20px;
+/* Navigation bar style */
+#home-nav-bar {
+    list-style-type: none;
+    margin: 0px 0px 12px;
+    padding: 0px;
+    border-radius: 4px;
+    background-color: #6D5D6E;
+    overflow: hidden;
+    
+    
+}
+
+.nav-l1 {
+    display: inline-block;
+    
+}
+
+/* Navbar links */
+.nav-l1 a{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.nav-l1 a:hover {
+    background-color: #F4EEE0;
+
+    
+}
+
+.index-active{
+    background-color: #F4EEE0;
 }
 /* index.html edits finish here */
 
@@ -49,13 +86,77 @@ a:visited {
 .c-container {
     color: white;
 }
+
+/* Navigation bar style */
+#castella-nav-bar {
+    list-style-type: none;
+    margin: 0px 0px 12px;
+    padding: 0px;
+    border-radius: 4px;
+    background-color: #6D5D6E;
+    top: 0; left: 0;
+    position: fixed; /* Set the navbar to fixed position */
+    width: 100%; /* Full width */
+}
+
+.nav-l2 {
+    display: inline-block;
+}
+
+/* Navbar links */
+.nav-l2 a{
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+.nav-l2 a:hover {
+    background-color: #F4EEE0;
+
+    
+}
+
+.castella-active{
+    background-color: #F4EEE0;
+}
 /* castellacake.html edits ends here */
 
-
+/*-------------------------------------------------------------------------*/
 
 /* ramen.html edits start here */
 .r-container {
     color: white;
+}
+
+/* Navigation bar style */
+#ramen-nav-bar {
+    list-style-type: none;
+    margin: 0px 0px 12px;
+    padding: 0px;
+    border-radius: 4px;
+    background-color: #6D5D6E;
+    top: 0; left: 0;
+    position: fixed; /* Set the navbar to fixed position */
+    width: 100%; /* Full width */
+}
+
+.nav-l3 {
+    display: inline-block;
+}
+
+/* Navbar links */
+.nav-l3 a{
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+.nav-l3 a:hover {
+    background-color: #F4EEE0;
+
+    
+}
+
+.ramen-active{
+    background-color: #F4EEE0;
 }
 /* ramen.html edits ends here */
 
@@ -65,4 +166,38 @@ a:visited {
 .t-container {
     color: white;
 }
+
+/* Navigation bar style */
+#tako-nav-bar {
+    list-style-type: none;
+    margin: 0px 0px 12px;
+    padding: 0px;
+    border-radius: 4px;
+    background-color: #6D5D6E;
+    top: 0; left: 0;
+    position: fixed; /* Set the navbar to fixed position */
+    width: 100%; /* Full width */
+}
+
+.nav-l4 {
+    display: inline-block;
+}
+
+/* Navbar links */
+.nav-l4 a {
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+.nav-l4 a:hover {
+    background-color: #F4EEE0;
+
+    
+}
+
+.tako-active{
+    background-color: #F4EEE0;
+}
 /* tako-yaki.html edits ends here */
+
+/*-------------------------------------------------------------------------*/
